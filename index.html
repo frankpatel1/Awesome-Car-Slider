@@ -1,0 +1,168 @@
+<!--DOCTYPE html-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Slider's</title>
+    <!--==fav-icon=======================-->
+    <link rel="shortcut icon" href="images/logo.png"/>
+    <!--==CSS=================================-->
+    <link rel="stylesheet" href="css/style.css"/>
+    <!--==Poppins-font=====================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--==Using-Font-Awesome-for-Icons=====-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+</head>
+<body>
+
+
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+            <!--1-->
+            <div class="swiper-slide s-1">
+            <!--**box**************************-->
+            <a href="#" class="slider-box">
+                <!--img-->
+                <div class="slider-img">
+                    <img src="images/1.webp" />
+                </div>
+                <!--text-->
+                <div class="slider-text">
+                    <strong>BWM X5</strong>
+                </div>
+            </a>
+            </div>
+
+            <!--2-->
+            <div class="swiper-slide s-2">
+                <!--**box**************************-->
+                <a href="#" class="slider-box">
+                    <!--img-->
+                    <div class="slider-img">
+                        <img src="images/2.jpg" />
+                    </div>
+                    <!--text-->
+                    <div class="slider-text">
+                        <strong>Ferrari F40</strong>
+                    </div>
+                </a>
+            </div>
+
+            <!--3-->
+            <div class="swiper-slide s-3">
+                <!--**box**************************-->
+                <a href="#" class="slider-box">
+                    <!--img-->
+                    <div class="slider-img">
+                        <img src="images/3.jpg" />
+                    </div>
+                    <!--text-->
+                    <div class="slider-text">
+                        <strong>Racing Car</strong>
+                    </div>
+                </a>
+            </div>
+
+            <!--4-->
+            <div class="swiper-slide s-4">
+                <!--**box**************************-->
+                <a href="#" class="slider-box">
+                    <!--img-->
+                    <div class="slider-img">
+                        <img src="images/4.jpg" />
+                    </div>
+                    <!--text-->
+                    <div class="slider-text">
+                        <strong>Audi G8</strong>
+                    </div>
+                </a>
+            </div>
+
+            <!--5-->
+            <div class="swiper-slide s-5">
+                <!--**box**************************-->
+                <a href="#" class="slider-box">
+                    <!--img-->
+                    <div class="slider-img">
+                        <img src="images/5.jpg" />
+                    </div>
+                    <!--text-->
+                    <div class="slider-text">
+                        <strong>BMW Car</strong>
+                    </div>
+                </a>
+            </div>
+
+
+                <!--6-->
+            <div class="swiper-slide s-6">
+                <!--**box**************************-->
+                <a href="#" class="slider-box">
+                    <!--img-->
+                    <div class="slider-img">
+                        <img src="images/6.jpg" />
+                    </div>
+                    <!--text-->
+                    <div class="slider-text">
+                        <strong>Racing Car</strong>
+                    </div>
+                </a>
+            </div>
+
+    
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+   
+
+    
+      
+
+
+
+     <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+     <!-- Initialize Swiper -->
+     <script>
+       var swiper = new Swiper(".mySwiper", {
+         slidesPerView: 1,
+         spaceBetween: 10,
+         pagination: {
+           el: ".swiper-pagination",
+           clickable: true,
+         },
+         breakpoints: {
+           560: {
+             slidesPerView: 2,
+             spaceBetween: 10,
+           },
+           900: {
+             slidesPerView: 3,
+             spaceBetween: 10,
+           },
+           1300: {
+             slidesPerView: 4,
+             spaceBetween: 10,
+           },
+         },
+       });
+     </script>
+    
+</body>
+</html>
